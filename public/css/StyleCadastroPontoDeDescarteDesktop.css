@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+    background-color: green;
+}
+.Container {
+	width: 100%;
+}
+.header{
+	border-radius: 5%;
+    height: 59.8%;
+	width: 40%;
+	background-color: white;
+	position: absolute;
+	top: calc(31% - 50px);
+	left: calc(50% - 255px);
+	z-index: 1;
+}
+.Logo{
+	margin-top: 25%;
+	width: 100%;
+}
+.Logo img{
+	width: 50%;
+}
+
+.login{
+	border-radius: 5%;
+	position: absolute;
+	top: calc(31% - 50px);
+	left: calc(55% - 50px);
+	height: 57%;
+	width: 28%;
+	padding: 10px;
+	z-index: 2;
+	background-color: white;
+}
+
+.login input[type=endereco]{
+    width: 90%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=numero]{
+	width: 90%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=cep]{
+	width: 90%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=complemento]{
+	width: 90%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=bairro]{
+	width: 90%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=cidade]{
+	width: 90%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=estado]{
+    width: 90%;
+	height: 30px;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 93%;
+	height: 35px;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 2px;
+	color: black;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: black;
+}
+
+::-moz-input-placeholder{
+   color: black;
+}
