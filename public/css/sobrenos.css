@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:wght@300&display=swap');
-
 /* Dispositivos móveis com tela de até 767px de largura AKA celular*/
 @media (max-width: 767px) {
   * {
@@ -232,7 +231,6 @@
 
 
 }
-
 /* Tablets com tela de 768px a 1023px de largura */
 @media (min-width: 768px) and (max-width: 1023px) {
   * {
@@ -481,7 +479,6 @@
   }
 
 }
-
 /* Desktops com tela de 1024px ou mais de largura */
 @media (min-width: 1024px){
 

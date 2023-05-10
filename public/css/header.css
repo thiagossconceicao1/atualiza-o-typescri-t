@@ -4,7 +4,9 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
-
+main {
+    height: 5vh;
+}
 
 header {
     background-color: #053a0a;

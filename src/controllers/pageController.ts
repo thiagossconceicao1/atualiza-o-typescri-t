@@ -33,3 +33,26 @@ export const sobrenos = (req:Request,res:Response) =>{
 export const usuario = (req:Request,res:Response) =>{
     res.render("pages/usuario")
 }
+
+export const noticia = (req:Request,res:Response) =>{
+    res.render("pages/noticia")
+}
+
+export const noticia2 = (req:Request,res:Response) =>{
+    res.render("pages/noticia2")
+}
+
+export const noticia3 = (req:Request,res:Response) =>{
+    res.render("pages/noticia3")
+}
+
+export const noticia4 = (req:Request,res:Response) =>{
+    res.render("pages/noticia4")
+}
+
+export const noticia5 = (req:Request,res:Response) =>{
+    res.render("pages/noticia5")
+}
+
+
+
