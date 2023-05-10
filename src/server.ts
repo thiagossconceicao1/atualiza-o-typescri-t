@@ -15,6 +15,7 @@ server.engine('mustache',mustache())
 
 server.use(express.static(path.join(__dirname,'../public')))
 server.use(express.json());
+server.use(express.urlencoded({extended:true}))
 
 server.use(mainRoutes)
 
@@ -25,7 +26,6 @@ server.use((req,res) =>{
 })
 
 //METODO POST
-server.use(express.urlencoded({extended:true}))
 
 
 

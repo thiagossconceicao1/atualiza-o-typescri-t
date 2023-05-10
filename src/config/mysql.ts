@@ -5,6 +5,11 @@ import {Sequelize} from "sequelize";
 import dotenv from 'dotenv'
 dotenv.config()
 
+// const sequelize = new Sequelize("dbAquiseulixo","root", "123456", {
+//     host: 'localhost',
+//     dialet:'mysql'
+// })
+
 const dbHost = process.env.MYSQL_HOST as string
 export const sequelize = new Sequelize(
     //recebendo os parametros de 

@@ -247,7 +247,7 @@
     flex-direction: column;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .TSA {
@@ -258,7 +258,7 @@
 
   .title-A {
     font-family: 'Kanit', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 80px;
     margin-bottom: 0px;
   }
@@ -482,9 +482,8 @@
 
 }
 
-
 /* Desktops com tela de 1024px ou mais de largura */
-@media (min-width: 1024px) {
+@media (min-width: 1024px){
 
   * {
     margin: 0;
@@ -505,8 +504,8 @@
 
   .TSA {
     text-align: center;
-    padding-left:5% ;
-    padding-right: 5%;
+    padding-left:5%;
+    padding-right:5%;
   }
 
   .title-A {
@@ -552,7 +551,7 @@
 
 .container-clip{
 
-  background-color: rgba(255, 0, 0, 0.24);
+  background-color: rgba(0, 0, 0, 0.185);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -664,7 +663,9 @@
 
   .container {
     position: relative;
-    padding: 15px;
+    padding: 25px;
+    width: 100%;
+    
 
   }
 
@@ -672,40 +673,12 @@
     overflow-x: auto;
   }
 
-  .arrow-left,
-  .arrow-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: 0;
-    font-size: 20px;
-    line-height: 250px;
-    width: 40px;
-    color: #fff;
-    transition: all 600ms ease-in-out;
-    background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.5;
-    cursor: pointer;
-    border: none;
-  }
 
-  .arrow-left:hover,
-  .arrow-right:hover {
-    opacity: 1;
-  }
-
-  .arrow-right {
-    right: 0;
-    left: auto;
-    text-align: right;
-    background: linear-gradient(to right, transparent 0%, black 200%);
-  }
 
   .gallery {
     display: flex;
     flex-flow: row nowrap;
-    gap: 15px;
+
   }
 
   .item {
@@ -715,15 +688,15 @@
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 0.5;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+
   }
 
   .current-item {
     opacity: 5;
   }
 
-  .gallery-wrapper::-webkit-scrollbar {
-    display: none;
-  }
+
   ::-webkit-scrollbar {
     height: 8px;
   }

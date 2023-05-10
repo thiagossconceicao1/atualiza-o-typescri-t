@@ -50,7 +50,8 @@ export const Localizacao = sequelize.define<LocalizacaoInstance>("Localizacao,",
     },
 
 
-},{
+},
+{
     tableName:'tblocalizacao',
     timestamps:false
 })

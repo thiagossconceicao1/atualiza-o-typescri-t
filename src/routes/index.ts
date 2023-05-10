@@ -1,8 +1,10 @@
 import {Router, Request, Response} from 'express'
+import dotenv from 'dotenv'
 import * as pageController from '../controllers/pageController'
 import * as userController from '../controllers/userController'
 
 const router = Router()
+dotenv.config()
 
 router.get('/',pageController.home)
 
