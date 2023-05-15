@@ -22,7 +22,7 @@ server.use(mainRoutes)
 //pagina não encontrada 
 
 server.use((req,res) =>{
-    res.status(404).send("Pagina não encontrada")
+    res.render('pages/error')
 })
 
 //METODO POST

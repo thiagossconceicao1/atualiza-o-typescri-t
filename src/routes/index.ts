@@ -6,6 +6,8 @@ import * as userController from '../controllers/userController'
 const router = Router()
 dotenv.config()
 
+
+
 router.get('/',pageController.home)
 
 router.get('/mapa',pageController.mapa)
@@ -27,8 +29,6 @@ router.get('/noticia4',pageController.noticia4)
 router.get('/noticia5',pageController.noticia5)
 
 router.get('/cadastro', userController.cadastro)
-
-
 
 router.get('/login',userController.login)
 
