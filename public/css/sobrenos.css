@@ -505,8 +505,8 @@
     padding-right:5%;
   }
 
-  .title-A {
-    font-size: 25px;
+  .title-A p{
+    font-size: 60px;
     padding-top: 80px;
     padding-bottom: 3vh;
     font-family: 'Kanit', sans-serif;
@@ -525,11 +525,10 @@
     padding-right: 5%;
   }
 
-  .title-B {
-    font-size: 25px;
+  .title-B p{
+    font-size: 60px;
     padding-top: 80px;
     padding-left: 3.8vh;
-    padding-bottom: 0px;
     font-family: 'Kanit', sans-serif;
   }
 
@@ -704,13 +703,13 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #007e0071;
+    background: #4dd6418e;
     ;
     border-radius: 10px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #007e0071;
+    background: #4dd641b9;
   }
 
   .containeeer {
