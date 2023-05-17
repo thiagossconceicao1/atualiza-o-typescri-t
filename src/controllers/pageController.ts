@@ -35,23 +35,23 @@ export const usuario = (req:Request,res:Response) =>{
 }
 
 export const noticia = (req:Request,res:Response) =>{
-    res.render("pages/noticia")
+    res.render("pages/informacao")
 }
 
 export const noticia2 = (req:Request,res:Response) =>{
-    res.render("pages/noticia2")
+    res.render("pages/informacao2")
 }
 
 export const noticia3 = (req:Request,res:Response) =>{
-    res.render("pages/noticia3")
+    res.render("pages/informacao3")
 }
 
 export const noticia4 = (req:Request,res:Response) =>{
-    res.render("pages/noticia4")
+    res.render("pages/informacao4")
 }
 
 export const noticia5 = (req:Request,res:Response) =>{
-    res.render("pages/noticia5")
+    res.render("pages/informacao5")
 }
 
 

@@ -18,15 +18,15 @@ router.get('/sobrenos',pageController.sobrenos)
  
 router.get('/usuario',pageController.usuario)
 
-router.get('/noticia',pageController.noticia)
+router.get('/informacao',pageController.noticia)
 
-router.get('/noticia2',pageController.noticia2)
+router.get('/informacao2',pageController.noticia2)
 
-router.get('/noticia3',pageController.noticia3)
+router.get('/informacao3',pageController.noticia3)
 
-router.get('/noticia4',pageController.noticia4)
+router.get('/informacao4',pageController.noticia4)
 
-router.get('/noticia5',pageController.noticia5)
+router.get('/informacao5',pageController.noticia5)
 
 router.get('/cadastro', userController.cadastro)
 
