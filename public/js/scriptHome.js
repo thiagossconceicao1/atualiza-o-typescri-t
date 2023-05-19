@@ -144,7 +144,7 @@ function success(pos) {
     }).addTo(map);
 
     L.marker([pos.coords.latitude, pos.coords.longitude]).addTo(map)
-        .bindPopup('Você Está Aqui Seu Lixo!')
+        .bindPopup('Você Está Aqui.')
         .openPopup();
     var greenIcon = L.icon({
         iconUrl: '/images/JoaoHome/green.png',
@@ -166,17 +166,7 @@ function success(pos) {
     L.marker([-23.648045, -46.702382], { icon }).addTo(map).openPopup();
     L.marker([-23.645936, -46.703012], { icon }).addTo(map).openPopup();
     L.marker([-23.646948, -46.706370], { icon }).addTo(map).openPopup();
-    L.marker([-23.648265, -46.705861], { icon }).addTo(map).openPopup();
-    L.marker([-23.650379, -46.702626], { icon }).addTo(map).openPopup();
-    L.marker([-23.647129, -46.697212], { icon }).addTo(map).openPopup();
-    L.marker([-23.647060, -46.699208], { icon }).addTo(map).openPopup();
-    L.marker([-23.642293, -46.702352], { icon }).addTo(map).openPopup();
-    L.marker([-23.644259, -46.700625], { icon }).addTo(map).openPopup();
-    L.marker([-23.644269, -46.704525], { icon }).addTo(map).openPopup();
-    L.marker([-23.645431, -46.705522], { icon }).addTo(map).openPopup();
-    L.marker([-23.646635, -46.705973], { icon }).addTo(map).openPopup();
-    L.marker([-23.536358, -46.638349], { icon }).addTo(map).openPopup();
-    
+   
     L.marker([-23.663834, -46.650062], { icon: greenIcon }).addTo(map).openPopup();
     L.marker([-23.573114, -46.724250], { icon: greenIcon }).addTo(map).openPopup();
     L.marker([-23.645737, -46.730996], { icon: greenIcon }).addTo(map).openPopup();

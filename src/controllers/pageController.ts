@@ -35,7 +35,7 @@ export const usuario = (req:Request,res:Response) =>{
 }
 
 export const noticia = (req:Request,res:Response) =>{
-    res.render("pages/informacao")
+    res.render("pages/informacao1")
 }
 
 export const noticia2 = (req:Request,res:Response) =>{

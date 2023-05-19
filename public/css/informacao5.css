@@ -213,21 +213,22 @@
       padding-left: 5%;
     }
     .container {
-      width: 100%;
-      
+        flex-direction: column;
+        display: flex;
+        width: 100%;
     }
     .container2 {
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
     }
     .container3 {
       width: 100%;
       font-family: "Montserrat";
     }
     .img img {
-      width: 100%;
+    width: 100%;
     }
     .texto1 {
       color: black;
@@ -270,12 +271,37 @@
       margin-left: 5%;
     }
     .texto6 {
-      color: black;
-      font-size: 20px;
-      width: 90%;
-      text-align: justify;
-      margin-top: 2%;
-      margin-left: 5%;
-    }
+        color: black;
+        font-size: 20px;
+        width: 90%;
+        text-align: justify;
+        margin-top: 2%;
+        margin-left: 5%;
+      }
+      .texto7 {
+        color: black;
+        font-size: 20px;
+        width: 90%;
+        text-align: justify;
+        margin-top: 2%;
+        margin-left: 5%;
+      }
+      ::-webkit-scrollbar {
+        height: 8px;
+      }
+    
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 25px;
+      }
+    
+      ::-webkit-scrollbar-thumb {
+        background: #4dd6418e;
+        ;
+        border-radius: 10px;
+      }
+    
+      ::-webkit-scrollbar-thumb:hover {
+        background: #4dd641b9;
+      }
   }
-  

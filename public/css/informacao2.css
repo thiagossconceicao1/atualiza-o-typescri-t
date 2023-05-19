@@ -194,6 +194,25 @@
       flex-direction: column;
       margin: 0 auto;
     }
+
+    ::-webkit-scrollbar {
+      height: 8px;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 25px;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #4dd6418e;
+      ;
+      border-radius: 10px;
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4dd641b9;
+    }
     .div-video {
       width: 100%;
       position: relative;
@@ -213,9 +232,9 @@
       padding-left: 5%;
     }
     .container {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
+      flex-direction: column;
+      display: flex;
+      width: 100%;
     }
     .container2 {
     justify-content: center;
@@ -228,7 +247,7 @@
       font-family: "Montserrat";
     }
     .img img {
-    width: 100%;
+        width: 100%;
     }
     .texto1 {
       color: black;

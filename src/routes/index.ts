@@ -18,7 +18,7 @@ router.get('/sobrenos',pageController.sobrenos)
  
 router.get('/usuario',pageController.usuario)
 
-router.get('/informacao',pageController.noticia)
+router.get('/informacao1',pageController.noticia)
 
 router.get('/informacao2',pageController.noticia2)
 
