@@ -144,7 +144,7 @@ function success(pos) {
     }).addTo(map);
 
     L.marker([pos.coords.latitude, pos.coords.longitude]).addTo(map)
-        .bindPopup('Você Está Aqui.')
+        .bindPopup('Você está aqui')
         .openPopup();
     var greenIcon = L.icon({
         iconUrl: '/images/PaginaInicial/green.png',
