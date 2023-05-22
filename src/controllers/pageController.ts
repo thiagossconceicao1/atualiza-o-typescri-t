@@ -35,23 +35,23 @@ export const usuario = (req:Request,res:Response) =>{
 }
 
 export const noticia = (req:Request,res:Response) =>{
-    res.render("pages/informacao1")
+    res.render("pages/Reciclagem-de-Eletronicos")
 }
 
 export const noticia2 = (req:Request,res:Response) =>{
-    res.render("pages/informacao2")
+    res.render("pages/Tecnologias-Emergentes-na-Reciclagem-de-Lixo-Eletronico")
 }
 
 export const noticia3 = (req:Request,res:Response) =>{
-    res.render("pages/informacao3")
+    res.render("pages/O-Papel-das-Empresas")
 }
 
 export const noticia4 = (req:Request,res:Response) =>{
-    res.render("pages/informacao4")
+    res.render("pages/Reciclando-em-Casa")
 }
 
 export const noticia5 = (req:Request,res:Response) =>{
-    res.render("pages/informacao5")
+    res.render("pages/Oportunidades-Economicas")
 }
 
 

@@ -18,15 +18,15 @@ router.get('/sobrenos',pageController.sobrenos)
  
 router.get('/usuario',pageController.usuario)
 
-router.get('/informacao1',pageController.noticia)
+router.get('/Reciclagem-de-Eletronicos',pageController.noticia)
 
-router.get('/informacao2',pageController.noticia2)
+router.get('/Tecnologias-Emergentes-na-Reciclagem-de-Lixo-Eletronico',pageController.noticia2)
 
-router.get('/informacao3',pageController.noticia3)
+router.get('/O-Papel-das-Empresas',pageController.noticia3)
 
-router.get('/informacao4',pageController.noticia4)
+router.get('/Reciclando-em-Casa',pageController.noticia4)
 
-router.get('/informacao5',pageController.noticia5)
+router.get('/Oportunidades-Economicas',pageController.noticia5)
 
 router.get('/cadastro', userController.cadastro)
 
