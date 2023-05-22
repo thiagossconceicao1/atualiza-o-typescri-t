@@ -147,7 +147,7 @@ function success(pos) {
         .bindPopup('Você Está Aqui.')
         .openPopup();
     var greenIcon = L.icon({
-        iconUrl: '/images/JoaoHome/green.png',
+        iconUrl: '/images/PaginaInicial/green.png',
 
         iconSize: [32, 37], // Tamanho do icone
         iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
@@ -155,7 +155,7 @@ function success(pos) {
     });
 
     var icon = L.icon({
-        iconUrl: '/images/JoaoHome/gray.png',
+        iconUrl: '/images/PaginaInicial/gray.png',
         iconSize: [32, 37], // Tamanho do icone
         iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
         popupAnchor: [-0, -76] // point from which the popup should open relative to the iconAnchor           
