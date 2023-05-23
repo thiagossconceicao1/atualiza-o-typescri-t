@@ -117,7 +117,7 @@ var map = L.map('map', {
     zoom: 13
 });
 
-var marker = L.marker([51.5, -0.09]).addTo(map);
+var marker = L.marker([51.505, -0.09]).addTo(map);
 
 function success(pos) {
     console.log(pos.coords.latitude, pos.coords.longitude);
@@ -133,7 +133,7 @@ function success(pos) {
     function onMapClick(e) {
         popup
             .setLatLng(e.latlng)
-            .setContent("You clicked the map at " + e.latlng.toString())
+            .setContent("Você clicou no mapa e sua " + e.latlng.toString())
             .openOn(map);
     }
 
@@ -162,7 +162,7 @@ function success(pos) {
     });
 
     // Local de descarte de ixo
-    L.marker([-23.641448, -46.699999], { icon }).addTo(map);
+    L.marker([-23.641448, -46.699999], { icon }).addTo(map).openPopup();
     L.marker([-23.648045, -46.702382], { icon }).addTo(map).openPopup();
     L.marker([-23.645936, -46.703012], { icon }).addTo(map).openPopup();
     L.marker([-23.646948, -46.706370], { icon }).addTo(map).openPopup();
