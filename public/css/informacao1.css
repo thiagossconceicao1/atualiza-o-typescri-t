@@ -212,16 +212,11 @@
       padding-top: 5%;
       padding-left: 5%;
     }
-    .container {
-      flex-direction: column;
-      display: flex;
-      width: 100%;
-      
-    }
     .container2 {
       display: flex;
-      width: 100%;
-    
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
     }
     .container3 {
       width: 100%;
@@ -305,5 +300,4 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #4dd641b9;
       }
-  }
-  
+    }

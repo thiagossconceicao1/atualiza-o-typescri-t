@@ -117,13 +117,11 @@
       padding-top: 5%;
       padding-left: 5%;
     }
-    .container {
-      display: flex;
-      width: 100%;
-      flex-direction: column;
-    }
     .container2 {
       display: flex;
+      max-width: 100%;
+      align-items: center;
+      justify-content: center;
     }
     .container3 {
       width: 90%;
