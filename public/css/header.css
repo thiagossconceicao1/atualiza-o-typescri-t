@@ -50,6 +50,9 @@ header {
     color: #fff;
     font-weight: 500;
 }
+.nav-link:hover {
+    opacity: 0.8;
+}
 
 .login-button button {
     border: none;

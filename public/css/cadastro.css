@@ -1,20 +1,19 @@
 @media (max-width: 767px) {
     body {
-        background-color: rgb(78, 214, 65);
+        margin: 0 auto;
     }
 
     .Container {
         width: 100%;
     }
 
-    .header {
+    .ContainerLogo {
         margin-top: 50px;
-        border-top-right-radius: 5%;
-        border-top-left-radius: 5%;
         margin-left: 25%;
         margin-right: 25%;
         width: 50%;
-        background-color: white;
+        background-color: #055a05;
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .Logo {
@@ -27,8 +26,7 @@
     }
 
     .login {
-        border-bottom-right-radius: 5%;
-        border-bottom-left-radius: 5%;
+        border: 1px solid rgb(0, 0, 0);
         margin-left: 25%;
         margin-right: 25%;
         height: 60%;
@@ -152,27 +150,28 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     body {
-        background-color: rgb(78, 214, 65);
+        margin: 0 auto;
     }
 
     .Container {
-        width: 100%;
+        width: 50%;
     }
 
-    .header {
-        border-radius: 5%;
-        height: 59.8%;
-        width: 40%;
-        background-color: white;
+    .ContainerLogo {
+        height: 65%;
+        width: 30%;
         position: absolute;
-        top: calc(31% - 50px);
-        left: calc(50% - 255px);
-        z-index: 2;
+        margin-top: 12%;
+        margin-left: 18%;
+        z-index: 1;
+        background-color: #055a05;
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .Logo {
-        margin-top: 120PX;
-        width: 60%;
+        margin-left: 8%;
+        margin-top: 70%;
+        width: 80%;
     }
 
     .Logo img {
@@ -180,19 +179,19 @@
     }
 
     .login {
-        border-radius: 5%;
         position: absolute;
-        top: calc(31% - 50px);
-        left: calc(55% - 50px);
-        height: 57%;
-        width: 28%;
-        padding: 10px;
+        margin-top: 12%;
+        margin-left: 48%;
+        height: 65%;
+        width: 30%;
+        padding-left: 50px;
+        padding-right: 25px;
         z-index: 2;
-        background-color: white;
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .login input[type=endereco] {
-        width: 71%;
+        width: 90%;
         height: 30px;
         background: transparent;
         border: 1px solid rgb(0, 0, 0);
@@ -200,11 +199,11 @@
         color: black;
         font-size: 16px;
         padding: 4px;
-        margin-top: 10px;
+        margin-top: 15%;
     }
 
     .login input[type=numero] {
-        width: 71%;
+        width: 90%;
         height: 30px;
         background: transparent;
         border: 1px solid rgb(0, 0, 0);
@@ -216,7 +215,7 @@
     }
 
     .login input[type=cep] {
-        width: 71%;
+        width: 90%;
         height: 30px;
         background: transparent;
         border: 1px solid rgb(0, 0, 0);
@@ -228,7 +227,7 @@
     }
 
     .login input[type=complemento] {
-        width: 71%;
+        width: 90%;
         height: 30px;
         background: transparent;
         border: 1px solid rgb(0, 0, 0);
@@ -240,7 +239,7 @@
     }
 
     .login input[type=bairro] {
-        width: 71%;
+        width: 90%;
         height: 30px;
         background: transparent;
         border: 1px solid rgb(0, 0, 0);
@@ -252,7 +251,7 @@
     }
 
     .login input[type=cidade] {
-        width: 71%;
+        width: 90%;
         height: 30px;
         background: transparent;
         border: 1px solid rgb(0, 0, 0);
@@ -264,7 +263,7 @@
     }
 
     .login input[type=estado] {
-        width: 71%;
+        width: 90%;
         height: 30px;
         background: transparent;
         border: 1px solid black;
@@ -276,7 +275,7 @@
     }
 
     .login input[type=submit] {
-        width: 75%;
+        width: 93%;
         height: 35px;
         border: 1px solid black;
         cursor: pointer;
@@ -287,6 +286,7 @@
         padding: 6px;
         margin-top: 10px;
     }
+    
     ::-webkit-input-placeholder {
         color: black;
     }
@@ -299,44 +299,43 @@
 @media (min-width: 1024px) {
     body {
         margin: 0 auto;
-        background-color: rgb(78, 214, 65);
     }
 
     .Container {
         width: 50%;
     }
 
-    .header {
-        border-radius: 5%;
-        height: 59.8%;
-        width: 40%;
-        background-color: white;
+    .ContainerLogo {
+        height: 65%;
+        width: 30%;
         position: absolute;
-        margin-top: 15.4%;
+        margin-top: 12%;
         margin-left: 18%;
         z-index: 1;
+        background-color: #055a05;
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .Logo {
-        margin-left: 10%;
-        margin-top: 22%;
-        width: 100%;
+        margin-left: 8%;
+        margin-top: 35%;
+        width: 80%;
     }
 
     .Logo img {
-        width: 50%;
+        width: 100%;
     }
 
     .login {
-        border-radius: 5%;
         position: absolute;
-        margin-top: 15.4%;
+        margin-top: 12%;
         margin-left: 48%;
-        height: 57%;
+        height: 65%;
         width: 30%;
-        padding: 10px;
+        padding-left: 50px;
+        padding-right: 25px;
         z-index: 2;
-        background-color: white;
+        border: 1px solid rgb(0, 0, 0);
     }
 
     .login input[type=endereco] {
@@ -348,7 +347,7 @@
         color: black;
         font-size: 16px;
         padding: 4px;
-        margin-top: 10px;
+        margin-top: 15%;
     }
 
     .login input[type=numero] {
@@ -445,11 +444,6 @@
     }
 
     .login input[type=text]:focus {
-        outline: none;
-        border: 1px solid rgba(255, 255, 255, 0.9);
-    }
-
-    .login input[type=password]:focus {
         outline: none;
         border: 1px solid rgba(255, 255, 255, 0.9);
     }
