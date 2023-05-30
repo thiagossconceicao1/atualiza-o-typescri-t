@@ -144,11 +144,10 @@ function success(pos) {
     }).addTo(map);
 
     L.marker([pos.coords.latitude, pos.coords.longitude]).addTo(map)
-        .bindPopup('Você está aqui.')
+        .bindPopup('Você está aqui')
         .openPopup();
     var greenIcon = L.icon({
         iconUrl: '/images/PaginaInicial/green.png',
-
         iconSize: [32, 37], // Tamanho do icone
         iconAnchor: [22, 94], // point of the icon which will correspond to marker's location
         popupAnchor: [-0, -76] // point from which the popup should open relative to the iconAnchor 
@@ -166,6 +165,8 @@ function success(pos) {
     L.marker([-23.648045, -46.702382], { icon }).addTo(map).openPopup();
     L.marker([-23.645936, -46.703012], { icon }).addTo(map).openPopup();
     L.marker([-23.646948, -46.706370], { icon }).addTo(map).openPopup();
+
+    L.marker([-23.663834, -46.650062], { icon }).addTo(map).openPopup().bindPopup('Novo local adicionado').openPopup();
    
     L.marker([-23.663834, -46.650062], { icon: greenIcon }).addTo(map).openPopup();
     L.marker([-23.573114, -46.724250], { icon: greenIcon }).addTo(map).openPopup();

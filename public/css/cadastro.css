@@ -309,7 +309,7 @@
         height: 65%;
         width: 30%;
         position: absolute;
-        margin-top: 12%;
+        margin-top: 10%;
         margin-left: 18%;
         z-index: 1;
         background-color: #055a05;
@@ -328,7 +328,7 @@
 
     .login {
         position: absolute;
-        margin-top: 12%;
+        margin-top: 10%;
         margin-left: 48%;
         height: 65%;
         width: 30%;
